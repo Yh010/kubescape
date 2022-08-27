@@ -30,7 +30,7 @@ You can find some examples of exceptions files [here](https://github.com/armosec
 
 The `resources` list and `posturePolicies` list are designed to be a combination of the resources and policies to be excluded
 > You must declare at least one resource and one policy
-
+ 
 e.g. If you wish to exclude all namespaces with the label `"environment": "dev"`, the resource list should look as follows:
 ```
 "resources": [
